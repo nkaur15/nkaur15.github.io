@@ -1,7 +1,7 @@
 nav {
   background-color: #0c4b68;
   padding: 10px;
-  
+
 }
 
 nav a {
@@ -15,7 +15,7 @@ nav a:hover {
   background-color: #6191a1;
 }
 
-title {
+t {
   color: rgb(1, 33, 55);
   font-size: 18px;
 }
