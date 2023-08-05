@@ -1,10 +1,7 @@
-p {
-  color: red;
-}
-
 nav {
-  background-color: #333;
+  background-color: #0c4b68;
   padding: 10px;
+  
 }
 
 nav a {
@@ -15,10 +12,10 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #555;
+  background-color: #6191a1;
 }
 
-header title {
-  color: blue;
+title {
+  color: rgb(1, 33, 55);
   font-size: 18px;
 }
