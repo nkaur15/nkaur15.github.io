@@ -33,11 +33,3 @@ t {
   background-image: url(Nav_Pic.jpg);
   background-size: cover;
 }
-
-.oval-pic::after {
-  content: "";
-  position: relative;
-  width: 90px;
-  border: 10px solid #000000;
-  border-radius: 50%;
-}
