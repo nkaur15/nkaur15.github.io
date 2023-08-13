@@ -6,6 +6,7 @@ body {
   margin-top: 100vh;
   margin-left: 300vw;
   margin-right: 300vw;
+  display: inline-flex;
 }
 
 nav {
@@ -31,9 +32,10 @@ nav a:hover {
 t {
   color: rgb(1, 33, 55);
   font-family: monospace;
-  font-size: 54px;
+  font-size: 24px;
   margin-left: 100px;
-  margin-right: 200px
+  margin-right: 200px;
+  display: inline-flex;
 }
 
 .oval-pic {
