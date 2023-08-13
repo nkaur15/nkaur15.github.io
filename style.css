@@ -22,3 +22,19 @@ t {
   font-family: monospace;
   font-size: 54px;
 }
+
+.oval-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+  background-image: url(Nav_Pic.jpg);
+  background-size: cover;
+}
+
+.oval-pic::after {
+  content: "";
+  position: relative;
+  width: 130px;
+  border: 5px solid #0c4b68;
+  border-radius: 30%;
+}
