@@ -2,8 +2,8 @@ nav {
   background-color: #0c4b68;
   padding: 10px;
   float: right;
-  margin-top: 100vh;
-  margin-right: 300vw;
+  margin-top: 100px;
+  margin-right: 300px;
 }
 
 nav a {
@@ -22,8 +22,8 @@ t {
   color: rgb(1, 33, 55);
   font-family: monospace;
   font-size: 54px;
-  margin-left: 50px;
-  margin-right: 75px
+  margin-left: 100px;
+  margin-right: 200px
 }
 
 .oval-pic {
