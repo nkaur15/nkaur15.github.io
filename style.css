@@ -2,6 +2,7 @@ t {
   color: rgb(1, 33, 55);
   font-family: monospace;
   font-size: 24px;
+  font-weight: bold;
   float: left;
   margin-top: 100px;
   margin-right: 200px;
@@ -30,7 +31,7 @@ nav a:hover {
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
 }
 
 .oval-pic {
