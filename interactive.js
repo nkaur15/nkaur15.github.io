@@ -6,6 +6,7 @@ const resume = document.getElementById('Resume')
 
 home.addEventListener('click', () => {
     alert('You clicked home!');
+    window.open("https://nkaur15.github.io/Home")
 });
 
 projects.addEventListener('click', () => {

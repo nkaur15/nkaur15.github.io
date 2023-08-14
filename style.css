@@ -37,11 +37,6 @@ nav a:hover {
   background-color: #6191a1;
 }
 
-nav a:active {
-  background-color: #6191a1;
-  color: #1a1629;
-}
-
 body {
   width: 100%;
   height: 100%;
