@@ -10,7 +10,8 @@ t {
 nav {
   background-color: #0c4b68;
   padding: 10px;
-  float: left;
+  display: flex;
+  flex-direction: row;
   margin-top: 100px;
   margin-right: 300px;
 }
@@ -33,6 +34,8 @@ nav a:hover {
   border-radius: 40%;
   background-image: url(Nav_Pic.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
