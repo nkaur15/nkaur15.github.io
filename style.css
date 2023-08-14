@@ -10,8 +10,7 @@ t {
 nav {
   background-color: #0c4b68;
   padding: 10px;
-  display: left;
-  flex-direction: row;
+  float: left;
   margin-top: 100px;
   margin-right: 300px;
 }
