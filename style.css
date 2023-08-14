@@ -11,7 +11,7 @@ nav {
   background-color: #0c4b68;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 100px;
   margin-right: 300px;
 }
@@ -35,7 +35,7 @@ nav a:hover {
   background-image: url(Nav_Pic.jpg);
   background-size: cover;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 body {
