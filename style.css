@@ -7,11 +7,20 @@ t {
   margin-right: 200px;
 }
 
+.oval-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  background-image: url(Nav_Pic.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
 nav {
   background-color: #0c4b68;
   padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 100px;
   margin-right: 300px;
 }
@@ -28,14 +37,9 @@ nav a:hover {
   background-color: #6191a1;
 }
 
-.oval-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 40%;
-  background-image: url(Nav_Pic.jpg);
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
+nav a:active {
+  background-color: #6191a1;
+  color: #1a1629;
 }
 
 body {
