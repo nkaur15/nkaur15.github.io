@@ -1,8 +1,11 @@
 nav {
   padding: 10px;
-  float: left;
-  margin-top: 100px;
-  margin-right: 300px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  position: fixed; 
+  top: 10px; 
+  left: 0; 
 }
 
 nav t {
