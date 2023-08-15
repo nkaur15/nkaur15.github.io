@@ -34,6 +34,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 .oval-pic {
@@ -42,7 +43,7 @@ nav a:hover {
   border-radius: 40%;
   background-image: url(Nav_Pic.jpg);
   background-size: cover;
-  margin-top: 20px auto;
+  margin-top: 20px;
 }
 
 body {
