@@ -11,10 +11,6 @@ nav t {
   font-family: monospace;
   font-size: 24px;
   font-weight: bold;
-  float: left;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 200px;
 }
 
 nav a {
@@ -23,7 +19,6 @@ nav a {
   font-family: monospace;
   text-decoration: none;
   padding: 8px 16px;
-  margin-top: 10px;
 }
 
 nav a:hover {
