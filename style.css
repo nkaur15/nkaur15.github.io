@@ -3,7 +3,7 @@ t {
   font-family: monospace;
   font-size: 24px;
   font-weight: bold;
-  float: center;
+  float: left;
   margin-top: 100px;
   margin-right: 200px;
 }
@@ -11,7 +11,7 @@ t {
 nav {
   background-color: #0c4b68;
   padding: 10px;
-  float: center;
+  float: left;
   margin-top: 100px;
   margin-right: 300px;
 }
