@@ -4,16 +4,17 @@ t {
   font-size: 24px;
   font-weight: bold;
   float: left;
-  margin-top: 100vh;
-  margin-right: 200vw;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
 }
 
 nav {
   background-color: #0c4b68;
   padding: 10px;
   float: left;
-  margin-top: 100vh;
-  margin-right: 300vw;
+  margin-top: 100px;
+  margin-right: 300px;
 }
 
 nav a {
