@@ -1,4 +1,4 @@
-t {
+/*t {
   color: rgb(1, 33, 55);
   font-family: monospace;
   font-size: 24px;
@@ -7,7 +7,7 @@ t {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 200px;
-}
+}*/
 
 nav {
   background-color: #0c4b68;
@@ -15,6 +15,14 @@ nav {
   float: left;
   margin-top: 100px;
   margin-right: 300px;
+}
+
+nav t {
+  background-color: aliceblue;
+  color: rgb(1, 33, 55);
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 nav a {
