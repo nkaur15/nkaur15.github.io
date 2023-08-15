@@ -1,4 +1,12 @@
-t {
+nav {
+  padding: 10px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 300px;
+}
+
+nav t {
+  background-color: #d5e0e5;
   color: rgb(1, 33, 55);
   font-family: monospace;
   font-size: 24px;
@@ -9,15 +17,8 @@ t {
   margin-right: 200px;
 }
 
-nav {
-  background-color: #0c4b68;
-  padding: 10px;
-  float: left;
-  margin-top: 100px;
-  margin-right: 300px;
-}
-
 nav a {
+  background-color: #0c4b68;
   color: white;
   font-family: monospace;
   text-decoration: none;
