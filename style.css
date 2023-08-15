@@ -52,3 +52,10 @@ body {
   /*margin-left: 300vw;
   margin-right: 300vw;*/
 }
+
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+}
