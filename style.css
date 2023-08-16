@@ -29,13 +29,6 @@ nav t {
   	padding: 10px 10%;
 	}
 
-@media (max-width: 768px) {
-  .container {
-      width: 100%;
-      padding: 25px 50px;
-  }
-}
-
 body {
   background-color: hsl(195, 25%, 69%);
 }
