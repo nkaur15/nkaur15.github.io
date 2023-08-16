@@ -5,7 +5,7 @@ nav {
     }
 
 nav a {
-	float: center;
+	  float: center;
     color: white;
     padding: 15px 15px;
     font-family: didot;
@@ -34,5 +34,14 @@ nav t {
 
 body {
   background-color: hsl(180, 9%, 91%);
-  font-size: didot;
+  font-family: didot;
+  float: left;
+  margin-top: 20px;
+}
+
+body h {
+  font-size: 24px;
+  font-family: didot;
+  font-stretch: expanded;
+  font-weight: bold;
 }
