@@ -19,6 +19,7 @@ nav .left-section {
 nav .right-section {
   background-color: #0c4b68;
   display: right;
+  padding: 8px 16px;
 }
 
 nav .left-section t {
@@ -34,7 +35,6 @@ nav .right-section a {
   color: white;
   font-family: monospace;
   text-decoration: none;
-  padding: 8px 16px;
 }
 
 nav a:hover {
