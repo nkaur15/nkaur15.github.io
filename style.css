@@ -1,5 +1,5 @@
 nav {
-	background-color: #0c4b68;
+	background-color: #3f518b;
     overflow: hidden;
     margin-top: 100px;
     }
@@ -22,9 +22,9 @@ nav a:hover {
     
 nav t {
 	background-color: white;
-    color: #0c4b68;
+    color: #3f518b;
     border-style: outset;
-    border-color: #0c4b68;
+    border-color: #3f518b;
    	font-family: monospace;
   	font-size: 24px;
     font-stretch: semi-condensed;
