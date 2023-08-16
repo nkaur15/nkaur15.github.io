@@ -16,7 +16,7 @@ nav a {
   font-family: monospace;
   font-size: 12px;
   text-decoration: none;
-  padding: 10px 16px;
+  padding: 10px 30%;
 }
 
 nav a:hover {
@@ -30,8 +30,7 @@ nav t {
   font-family: monospace;
   font-size: 24px;
   font-weight: bold;
-  padding: 10px 16px;
-  margin-right: 50px;
+  padding: 10px 30%;
 }
 
 .content {
