@@ -8,8 +8,9 @@ nav a {
 	float: center;
     color: white;
     padding: 10px 15px;
-    font-family: verdana;
+    font-family: monospace;
     font-size: 16px;
+    font-stretch: semi-condensed;
     text-align: center;
     text-decoration: none;
 	}
@@ -23,8 +24,10 @@ nav t {
 	background-color: white;
     color: #0c4b68;
     border-style: outset;
-   	font-family: verdana;
+    border-color: #0c4b68;
+   	font-family: monospace;
   	font-size: 24px;
+    font-stretch: semi-condensed;
   	font-weight: bold;
   	padding: 10px 10%;
 	}
