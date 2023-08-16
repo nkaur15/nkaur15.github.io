@@ -35,3 +35,7 @@ nav t {
       padding: 25px 50px;
   }
 }
+
+body {
+  background-color: hsl(195, 28%, 50%);
+}
