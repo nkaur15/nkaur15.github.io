@@ -1,5 +1,5 @@
 nav {
-  background-color: #0c4b68;
+  /*background-color: #0c4b68;*/
   padding: 10px;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,7 @@ nav {
   top: 25px; 
   left: 0; 
 }
+
 
 nav t {
   background-color: #d5e0e5;
