@@ -1,5 +1,5 @@
 nav {
-  /*background-color: #0c4b68;*/
+  background-color: #0c4b68;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
@@ -9,29 +9,9 @@ nav {
   left: 0; 
 }
 
-nav .left-section {
-  display: left;
-  align-items: center;
-  background-color: #d5e0e5;
-  padding: 8px 16px;
-}
-
-nav .right-section {
-  background-color: #0c4b68;
-  display: right;
-  padding: 8px 16px;
-}
-
-nav .left-section t {
-  /*background-color: #d5e0e5;*/
-  color: rgb(1, 33, 55);
-  font-family: monospace;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-nav .right-section a {
+nav a {
   /*background-color: #0c4b68;*/
+  float: right;
   color: white;
   font-family: monospace;
   text-decoration: none;
@@ -39,6 +19,15 @@ nav .right-section a {
 
 nav a:hover {
   background-color: #6191a1;
+}
+
+nav t {
+  float: left;
+  background-color: #d5e0e5;
+  color: rgb(1, 33, 55);
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .content {
