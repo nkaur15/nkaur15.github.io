@@ -5,8 +5,8 @@ nav {
   width: 100%; 
   position: fixed; 
   top: 100px; 
-  left: 3%;
-  right: 3%; 
+  left: 10vw;
+  right: 10vw; 
 }
 
 nav a {
