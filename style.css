@@ -10,6 +10,8 @@ nav {
 }
 
 nav .left-section {
+  display: flex;
+  align-items: center;
   background-color: #d5e0e5;
 }
 
