@@ -10,15 +10,15 @@ nav {
 }
 
 nav .left-section {
-  display: flex;
+  display: left;
   align-items: center;
   background-color: #d5e0e5;
-  padding: 8px 16px;
+  padding: 8px 0px;
 }
 
 nav .right-section {
   background-color: #0c4b68;
-  display: flex;
+  display: right;
 }
 
 nav t {
