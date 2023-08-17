@@ -37,7 +37,8 @@ nav t {
 body {
 	font-family: 'Josefin Sans', sans-serif;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
+    margin-left: 40%;
 	}
 
 body h2 {
@@ -53,5 +54,5 @@ body p {
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-left: 44%;
+    margin-left: 40%;
     }
