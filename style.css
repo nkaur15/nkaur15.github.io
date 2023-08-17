@@ -9,7 +9,7 @@ nav a {
     color: white;
     padding: 10px 15px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-stretch: semi-condensed;
     text-align: center;
     text-decoration: none;
@@ -27,7 +27,7 @@ nav t {
     border-style: outset;
     border-color: #101832;
    	font-family: 'Josefin Sans', sans-serif;
-  	font-size: 16px;
+  	font-size: 20px;
     font-stretch: semi-condensed;
   	font-weight: bold;
     padding-left: 10%;
