@@ -7,7 +7,7 @@ nav {
 nav a {
 	  float: center;
     color: white;
-    padding: 15px 15px;
+    padding: 10px 15px;
     font-family: monospace;
     font-size: 16px;
     font-stretch: semi-condensed;
@@ -30,7 +30,8 @@ nav t {
   	font-size: 24px;
     font-stretch: semi-condensed;
   	font-weight: bold;
-  	padding: 5px 10%;
+  	padding-left: 10%;
+    padding-right: 10%;
 	}
 
 body {
