@@ -8,7 +8,7 @@ nav a {
 	  float: center;
     color: white;
     padding: 10px 15px;
-    font-family: optima, sans-serif;
+    font-family: Didot, serif;
     font-size: 16px;
     font-stretch: semi-condensed;
     text-align: center;
@@ -26,7 +26,7 @@ nav t {
     color: #101832;
     border-style: outset;
     border-color: #101832;
-   	font-family: optima, sans-serif;
+   	font-family: Didot, serif;
   	font-size: 16px;
     font-stretch: semi-condensed;
   	font-weight: bold;
@@ -35,7 +35,7 @@ nav t {
 	}
 
 body {
-    font-family: optima, sans-serif;
+    font-family: Didot, serif;
     margin-top: 20px;
     text-align: center;
 }
