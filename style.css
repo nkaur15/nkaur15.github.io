@@ -35,6 +35,7 @@ nav t {
 	}
     
 body {
+    background-image: cross-fade("milky-way-2695569_1920.jpg");
 	font-family: 'Josefin Sans', sans-serif;
     margin-top: 20px;
     text-align: left;
