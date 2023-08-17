@@ -21,7 +21,8 @@ nav a:hover {
 	}
     
 nav t {
-	background-color: white;
+    float: left;
+	  background-color: white;
     color: #101832;
     border-style: outset;
     border-color: #101832;
