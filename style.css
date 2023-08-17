@@ -33,15 +33,24 @@ nav t {
 	}
 
 body {
-  background-color: hsl(180, 9%, 91%);
-  font-family: monospace;
-  float: left;
-  margin-top: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+body h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
-h {
-  font-size: 24px;
-  font-family: didot;
-  font-stretch: expanded;
-  font-weight: bold;
-}
+body p {
+    font-size: 12px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;      
+    margin-left: 44%;
+     
+ }
