@@ -55,6 +55,4 @@ body {
         margin-left: 45%;
         }
         
-    img {
-      border-radius: 50%;
-    }
+    .circular--square { border-radius: 50%; }
