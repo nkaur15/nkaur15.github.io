@@ -34,15 +34,14 @@ nav t {
 body {
 	font-family: 'Josefin Sans', sans-serif;
     margin-top: 20px;
-    text-align: right;
+    text-align: left;
 	}
 
 body h2 {
 	font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
-    align-items: right;
-    margin-left: 5%;
+    align-items: center;
     margin-right: 25%;
     }
     
@@ -50,9 +49,8 @@ body p {
 	font-size: 12px;
     padding-top: 10px;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: right;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 25%;
+    margin-right: 45%;
     }
