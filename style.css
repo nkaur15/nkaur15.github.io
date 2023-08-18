@@ -15,7 +15,8 @@ nav a {
     background-color: #101834;
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 	}
     
 nav a:hover {
@@ -30,7 +31,8 @@ nav t {
     color: #101832;
     border-style: outset;
     border-color: #101832;
-    padding: 10px 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 	}
     
 body {
