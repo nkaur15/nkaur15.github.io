@@ -34,25 +34,25 @@ nav t {
 body {
 	font-family: 'Josefin Sans', sans-serif;
     margin-top: 20px;
-    text-align: left;
+    text-align: right;
 	}
 
 body h2 {
 	font-size: 20px;
     font-weight: bold;
     padding-top: 10px;
-    align-items: center;
-    margin-left: 25%;
-    margin-right: 5%;
+    align-items: right;
+    margin-left: 5%;
+    margin-right: 25%;
     }
     
 body p {
 	font-size: 12px;
     padding-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     text-align: left;
-    margin-left: 25%;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 25%;
     }
