@@ -7,18 +7,19 @@ nav {
     font-stretch: semi-condensed;
     font-weight: bold;
     text-align: center;
-    padding: 10px 15px;
     }
 
 nav a {
-	float: center;
+	float: right;
+    background-color: #101834;
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
 	}
     
 nav a:hover {
 	background-color: #6191a1;
-  color: black;
+  	color: black;
 	}
     
 nav t {
@@ -27,6 +28,7 @@ nav t {
     color: #101832;
     border-style: outset;
     border-color: #101832;
+    padding: 10px 15px;
 	}
     
 body {
@@ -40,6 +42,8 @@ body h2 {
     font-weight: bold;
     padding-top: 10px;
     align-items: center;
+    margin-left: 25%;
+    margin-right: 5%;
     }
     
 body p {
@@ -49,6 +53,6 @@ body p {
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-left: 40%;
+    margin-left: 25%;
     margin-right: 5%;
     }
