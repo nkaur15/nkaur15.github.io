@@ -37,20 +37,24 @@ body {
     text-align: left;
 	}
 
-body h2 {
-	font-size: 20px;
-    font-weight: bold;
-    padding-top: 10px;
-    align-items: center;
-    margin-right: 25%;
-    }
-    
-body p {
-	font-size: 16px;
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    text-align: left;
-    margin-right: 45%;
+    body h2 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        align-items: center;
+        margin-left: 45%;
+        }
+        
+    body p {
+        font-size: 12px;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        text-align: left;
+        margin-left: 45%;
+        }
+        
+    img {
+      border-radius: 50%;
     }
