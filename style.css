@@ -25,12 +25,10 @@ nav a:hover {
 nav t {
 	float: left;
 	background-color: white;
-    margin-right: 15px;
-    margin-left: 15px;
     color: #101832;
     border-style: outset;
     border-color: #101832;
-    padding: 10px 15px;
+    padding: 10px 50px;
 	}
     
 body {
