@@ -28,6 +28,7 @@ nav t {
 	float: left;
     width: 40%;
 	background-color: white;
+    font-weight: bold;
     color: #101832;
     border-style: outset;
     border-color: #101832;
@@ -47,6 +48,7 @@ body {
 .header{
     font-size: 22px;
     font-weight: bolder;
+    color: rgb(242, 206, 107);
     padding-top: 10px;
     align-items: center;
     margin-left: 40%;
@@ -63,18 +65,14 @@ body {
     justify-content: right;
     text-align: left;
     margin-left: 40%;
-    align-self: flex-endl;
+    align-self: flex-end;
     }
-
-.image{
-    height: 20px;
-}
 
 .paragraph{
     display: flex;
 }
         
-body circular--square {
+.circular--square {
     display: flex;
     border-radius: 50%; 
     flex-basis: 40%;
