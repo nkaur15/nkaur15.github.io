@@ -43,7 +43,7 @@ body {
 	}
 
     body h2 {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
         padding-top: 10px;
         align-items: center;
@@ -51,7 +51,7 @@ body {
         }
         
     body p {
-        font-size: 12px;
+        font-size: 14px;
         padding-top: 10px;
         display: flex;
         align-items: center;
@@ -64,4 +64,5 @@ body {
          display: flex;
          border-radius: 50%; 
          flex-basis: 40%;
+         margin-left: 10%
         }
