@@ -19,3 +19,6 @@ publications.addEventListener('click', () => {
 resume.addEventListener('click', () => {
     alert('You clicked resume!');
 });
+
+let element = document.querySelector('.circlular--square');
+element.style.borderRadius = "50%";
