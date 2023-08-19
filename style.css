@@ -38,7 +38,7 @@ nav t {
 body {
 	font-family: 'Josefin Sans', sans-serif;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('milky-way-2695569_1920.jpg');
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 	background-size: cover;
     margin-top: 20px;
     text-align: left;
