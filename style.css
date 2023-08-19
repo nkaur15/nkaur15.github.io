@@ -90,6 +90,8 @@ body {
     clip-path: circle;
     margin: auto;
     display: inline-block;
+    width: 100px;
+    height: 100px;
     }   
         
 .headerText {
