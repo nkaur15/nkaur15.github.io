@@ -39,6 +39,7 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
     margin-top: 20px;
     text-align: left;
+    font-weight: bold;
 	}
 
     body h2 {
@@ -59,4 +60,8 @@ body {
         margin-left: 40%;
         }
         
-    .circular--square { border-radius: 50%; }
+    .circular--square {
+         display: flex;
+         border-radius: 50%; 
+         flex-basis: 40%;
+        }
