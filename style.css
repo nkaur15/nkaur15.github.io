@@ -81,3 +81,17 @@ body {
     width: 100px;
     height: 100px;
     }
+
+.headerLogo {
+    float:left;
+    margin:auto;
+    display:inline-block;
+    }   
+        
+.headerText {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    position: relative;
+    display:inline-block;
+    }
