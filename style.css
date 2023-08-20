@@ -2,7 +2,7 @@ body {
     margin: 0%;
     padding: 0%;
 	font-family: 'Josefin Sans', sans-serif;
-    background: linear-gradient(rgba(31, 54, 70, 0.5), rgba(49, 74, 127, 0.5), url('stars-1837306_1920.jpg'));
+    background-image: linear-gradient(rgba(31, 54, 70, 0.5), rgba(49, 74, 127, 0.5), url('stars-1837306_1920.jpg'));
     background-repeat: no-repeat;
 	background-size: cover;
 	}
