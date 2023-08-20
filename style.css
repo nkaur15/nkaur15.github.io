@@ -12,7 +12,7 @@ body {
     left: 0;
     width: 100%;
     height: 50%;
-    background-color: linear-gradient(90deg, rgb(185, 188, 237), rgb(185, 188, 237), url('stars-1837306_1920.jpg'));
+    background-color: linear-gradient(rgb(185, 188, 237), rgb(185, 188, 237), url('stars-1837306_1920.jpg'));
     }
       
 #bottom-half {
@@ -22,4 +22,5 @@ body {
     width: 100%;
     height: 50%;
     background: rgb(21, 34, 60);
+    background-repeat: repeat;
     }
