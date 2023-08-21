@@ -1,26 +1,23 @@
 body {
     width: 100%;
     height: 100vh;
+    margin: 0;
 	background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
-    color: aliceblue;
+    color: rgb(36, 55, 71);
     font-weight: bolder;
 	}
 
-#top-half {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: linear-gradient(rgb(185, 188, 237), rgb(185, 188, 237), url('stars-1837306_1920.jpg'));
+html {
+    height: 100%;
+    margin: 0;
     }
-      
-#bottom-half {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    height: 50%;
-    background: rgb(21, 34, 60);
-    background-repeat: repeat;
+   
+/* background image for homepage that only covers half the screen */
+.bg {
+    background-image: url("img_girl.jpg");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
