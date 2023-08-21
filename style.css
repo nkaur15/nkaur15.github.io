@@ -32,7 +32,10 @@ html {
 }
 
 .container .heading {
-    font-family: ;
+    margin-left: 55%;
+    margin-top: 35%;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 32px;
     font-weight: 800;
     color: aliceblue;
@@ -40,7 +43,25 @@ html {
 
 /* navigation bar for home page */
 .container .nav {
+    overflow: hidden;
+    margin-top: 40%;
+    align-items: center;
+    text-align: center;
+}
 
+.container a {
+    float: center;
+    color: white;
+    padding: 10px 15px;
+    font-stretch: semi-condensed;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container a:hover{
+    color: black;
+    background-color: #6191a1;
 }
 
 .center {
@@ -55,11 +76,11 @@ html {
 
 /* outer animated circle */
 .outercircle {
-    margin-top: 25%;
+    margin-top: 32%;
     width: 65%;
     height: 65%;
     border-radius: 50%;
-    border: 4px dashed rgb(218, 207, 60);
+    border: 4px dashed rgb(34, 86, 135);
     border-spacing: 10px;
     box-sizing: border-box;
     animation: animationOuterCircle 25s linear infinite;
@@ -67,7 +88,7 @@ html {
 
 /* inner animated circled */
 .innercircle {
-    margin-top: 25%;
+    margin-top: 32%;
     position: absolute;
     top: 25px;
     left: 25px;
@@ -79,3 +100,5 @@ html {
     box-sizing: border-box;
     animation: animationInnerCircle 25s linear infinite;
 }
+
+@
