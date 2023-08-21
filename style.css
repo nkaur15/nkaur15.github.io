@@ -44,6 +44,7 @@ html {
 }
 
 .center {
+    margin-top: 25px;
     left: 40%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -54,8 +55,8 @@ html {
 
 /* outer animated circle */
 .outercircle {
-    width: 75%;
-    height: 75%;
+    width: 65%;
+    height: 65%;
     border-radius: 50%;
     border: 8px dashed white;
     border-spacing: 10px;
@@ -68,8 +69,8 @@ html {
     position: absolute;
     top: 25px;
     left: 25px;
-    width: calc(75% - 50px);
-    height: calc(75% - 50px);
+    width: calc(65% - 50px);
+    height: calc(65% - 50px);
     border-radius: 50%;
     border: 4px dashed white;
     border-spacing: 10px;
