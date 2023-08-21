@@ -58,7 +58,7 @@ html {
     width: 65%;
     height: 65%;
     border-radius: 50%;
-    border: 25px dashed white;
+    border: 4px dashed white;
     border-spacing: 10px;
     box-sizing: border-box;
     animation: animationOuterCircle 25s linear infinite;
@@ -72,7 +72,7 @@ html {
     width: calc(65% - 50px);
     height: calc(65% - 50px);
     border-radius: 50%;
-    border: 20px dashed white;
+    border: 4px dashed white;
     border-spacing: 10px;
     box-sizing: border-box;
     animation: animationInnerCircle 25s linear infinite;
