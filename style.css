@@ -83,7 +83,7 @@ html {
     border: 4px dashed rgb(34, 86, 135);
     border-spacing: 10px;
     box-sizing: border-box;
-    animation: animationOuterCircle 25s linear infinite;
+    animation: animationOuterCircle 10s linear infinite;
 }
 
 /* inner animated circled */
@@ -98,7 +98,27 @@ html {
     border: 4px dashed rgb(122, 216, 237);
     border-spacing: 10px;
     box-sizing: border-box;
-    animation: animationInnerCircle 25s linear infinite;
+    animation: animationInnerCircle 5s linear infinite;
 }
 
-@
+.imagecircle {
+    position: absolute;
+    margin-top: 32%;
+    top: 25px;
+    left: 25px;
+    width: calc(55% - 50px);
+    height: calc(55% - 50px);
+    border-radius: 50%;
+    border: none;
+    background: url("Nav_Pic.jpg");
+}
+
+@keyframe animationOuterCircle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframe animationInnerCircle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
