@@ -28,7 +28,7 @@ html {
 
 /* top half of home page with animated pic and nav bar */
 .container {
-    padding-top: 25 rem;
+    padding-top: 15 rem;
 }
 
 .container .heading {
@@ -55,10 +55,11 @@ html {
 
 /* outer animated circle */
 .outercircle {
+    margin-top: 25%;
     width: 65%;
     height: 65%;
     border-radius: 50%;
-    border: 4px dashed white;
+    border: 4px dashed rgb(218, 207, 60);
     border-spacing: 10px;
     box-sizing: border-box;
     animation: animationOuterCircle 25s linear infinite;
@@ -66,13 +67,14 @@ html {
 
 /* inner animated circled */
 .innercircle {
+    margin-top: 25%;
     position: absolute;
     top: 25px;
     left: 25px;
     width: calc(65% - 50px);
     height: calc(65% - 50px);
     border-radius: 50%;
-    border: 4px dashed white;
+    border: 4px dashed rgb(122, 216, 237);
     border-spacing: 10px;
     box-sizing: border-box;
     animation: animationInnerCircle 25s linear infinite;
