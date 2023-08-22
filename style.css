@@ -33,6 +33,7 @@ html {
 
 .container .heading {
     margin-left: 45%;
+    margin-top: 50%;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 2px rgb(168, 101, 205), 0 0 1em rgb(213, 96, 224), 0 0 0.2em rgb(139, 52, 151);
     font-size: 52px;
@@ -64,8 +65,9 @@ nav a:hover{
     background-color: #6191a1;
 }
 
-.center {
+.bg .center {
     margin-left: 40%;
+    margin-top: 50%;
     position: absolute;
     transform: translate(-100%, -100%);
     width: 300px;
