@@ -27,7 +27,7 @@ html {
 }
 
 /* top half of home page with animated pic and nav bar */
-.container {
+.bg .container {
     padding-top: 0.5rem;
 }
 
