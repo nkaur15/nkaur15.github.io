@@ -33,7 +33,7 @@ html {
 
 .container .heading {
     margin-left: 45%;
-    margin-top: 10%;
+    margin-top: 25%;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 2px rgb(168, 101, 205), 0 0 1em rgb(213, 96, 224), 0 0 0.2em rgb(139, 52, 151);
     font-size: 52px;
@@ -67,7 +67,7 @@ nav a:hover{
 
 .bg .center {
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 20%;
     position: absolute;
     transform: translate(-100%, -100%);
     width: 300px;
@@ -101,6 +101,14 @@ img {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
     text-shadow: 1px 1px 2px rgb(168, 101, 205), 0 0 1em rgb(213, 96, 224), 0 0 0.2em rgb(139, 52, 151);
+}
+
+.par {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @keyframes float {
