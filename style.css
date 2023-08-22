@@ -33,7 +33,6 @@ html {
 
 .container .heading {
     margin-left: 45%;
-    padding-top: 15%;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 2px rgb(168, 101, 205), 0 0 1em rgb(213, 96, 224), 0 0 0.2em rgb(139, 52, 151);
     font-size: 52px;
@@ -48,6 +47,7 @@ nav {
     margin-left: 45%;
     align-items: center;
     text-align: center;
+    font-weight: 800;;
 }
 
 nav a {
@@ -55,7 +55,6 @@ nav a {
     color: white;
     padding: 10px 15px;
     font-stretch: semi-condensed;
-    font-weight: 500;
     text-decoration: none;
     text-align: center;
 }
