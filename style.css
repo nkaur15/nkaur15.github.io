@@ -47,7 +47,6 @@ html {
 /* navigation bar for home page */
 .nav {
     overflow: hidden;
-    margin-top: 15%;
     margin-left: 35%;
     align-items: center;
     text-align: center;
@@ -69,12 +68,19 @@ html {
 }
 
 .menu a {
-    float: center;
+    display: block;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+ 	justify-content: center;
     color: aliceblue;
-    padding: 10px 15px;
+    text-shadow: 0 0 15px white;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
     font-stretch: semi-condensed;
     text-decoration: none;
     text-align: center;
+    padding: 10px 15px;
 }
 
 /*nav a:hover{
@@ -115,7 +121,7 @@ html {
 .menu a:hover::before {
     width: 100%;
     height: 100%;
-    color: aliceblue;
+    border-color: aliceblue;
 }
 
 .bg .center {
