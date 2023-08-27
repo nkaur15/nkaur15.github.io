@@ -47,10 +47,11 @@ html {
 /* navigation bar for home page */
 .nav {
     overflow: hidden;
+    display: flex;
     margin-left: 35%;
     align-items: center;
     text-align: center;
-    font-weight: 800;;
+    font-weight: 800;
 }
 
 .navheader {
@@ -68,7 +69,7 @@ html {
 }
 
 .menu a {
-    display: block;
+	display: block;
     height: 100%;
     position: relative;
     display: flex;
@@ -88,8 +89,8 @@ html {
     background-color: #6191a1;
 } */
 /* credit to https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980 */
-.menu a:after,
-.menu a:before {
+.menu li:after,
+.menu li:before {
     content: "";
     position: absolute;
     display: block;
@@ -99,7 +100,7 @@ html {
     transition: all 0.5s ease;
 }
 
-.menu a:after {
+.menu li:after {
     width: 0%;
     height: 0%;
     top: 0;
@@ -108,7 +109,7 @@ html {
     border-left: 2px solid transparent;
 }
 
-.menu a:before {
+.menu li:before {
     width: 0%;
     height: 0%;
     right: 0;
@@ -117,8 +118,8 @@ html {
     border-right: 2px solid transparent;
 }
 
-.menu a:hover::after,
-.menu a:hover::before {
+.menu li:hover::before,
+.menu li:hover::after {
     width: 100%;
     height: 100%;
     border-color: aliceblue;
