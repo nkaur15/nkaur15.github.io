@@ -84,10 +84,6 @@ html {
     padding: 10px 15px;
 }
 
-/*nav a:hover{
-    color: black;
-    background-color: #6191a1;
-} */
 /* credit to https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980 */
 .menu a:after,
 .menu a:before {
@@ -127,9 +123,9 @@ html {
 
 .bg .center {
     position: absolute;
-    transform: translate(0%, -80%);
+    transform: translate(0%, -90%);
     width: 40%;
-    height: 50%;
+    height: 55%;
     box-sizing: border-box;
 }
 
@@ -139,6 +135,7 @@ html {
     vertical-align: bottom;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 40%;
 	width: 200px;
     height: 200px;
     box-sizing: border-box;
