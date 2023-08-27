@@ -89,8 +89,8 @@ html {
     background-color: #6191a1;
 } */
 /* credit to https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980 */
-.menu li:after,
-.menu li:before {
+.menu a:after,
+.menu a:before {
     content: "";
     position: absolute;
     display: block;
@@ -100,7 +100,7 @@ html {
     transition: all 0.5s ease;
 }
 
-.menu li:after {
+.menu a:after {
     width: 0%;
     height: 0%;
     top: 0;
@@ -109,7 +109,7 @@ html {
     border-left: 2px solid transparent;
 }
 
-.menu li:before {
+.menu a:before {
     width: 0%;
     height: 0%;
     right: 0;
@@ -118,8 +118,8 @@ html {
     border-right: 2px solid transparent;
 }
 
-.menu li:hover::before,
-.menu li:hover::after {
+.menu a:hover::before,
+.menu a:hover::after {
     width: 100%;
     height: 100%;
     border-color: aliceblue;
@@ -139,8 +139,8 @@ html {
     vertical-align: bottom;
     margin-left: 20%;
     margin-right: 20%;
-	width: 100px;
-    height: 100px;
+	width: 200px;
+    height: 200px;
     box-sizing: border-box;
     border: 6px rgb(101, 68, 177);
     border-radius: 50%;
