@@ -34,7 +34,7 @@ html {
 }
 
 .bg .container .heading {
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 35%;
     vertical-align: middle;
     font-family: 'Josefin Sans', sans-serif;
@@ -48,7 +48,7 @@ html {
 .nav {
     overflow: hidden;
     display: flex;
-    margin-left: 35%;
+    margin-left: 40%;
     align-items: center;
     text-align: center;
     font-weight: 800;
@@ -133,9 +133,9 @@ html {
 .floatingImage {
 	overflow: hidden;
     vertical-align: bottom;
-    margin-left: 20%;
+    margin-left: 30%;
     margin-right: 20%;
-    margin-top: 40%;
+    margin-top: 20%;
 	width: 200px;
     height: 200px;
     box-sizing: border-box;
