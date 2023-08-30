@@ -24,7 +24,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px dashed blue;
 }
 
 /* top half of home page with animated pic and nav bar */
@@ -44,7 +43,6 @@ html {
     font-weight: 1200;
     width: 50%;
     color: aliceblue;
-    border: 2px dashed yellow;
 }
 
 /*social media buttons*/
@@ -54,7 +52,7 @@ html {
   width: 20px;
   text-align: center;
   text-decoration: none;
-  /*margin: 2px 2px;*/
+  margin-left: 15px;
   border-radius: 50%;
 }
 
@@ -63,17 +61,17 @@ html {
 }
 
 .fa-github {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
 .fa-envelope {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
 .fa-linkedin {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
@@ -100,7 +98,6 @@ html {
     align-items: center;
     list-style: none;
     padding: 0 5px;
-    border: 2px dashed white;
 }
 
 .menu a {
