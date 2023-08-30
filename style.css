@@ -37,11 +37,11 @@ html {
 .heading {
     margin-top: 10%;
     margin-left: 40%;
-    vertical-align: middle;
+    display: flex;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 2px rgb(168, 101, 205), 0 0 1em rgb(213, 96, 224), 0 0 0.2em rgb(139, 52, 151);
     font-size: 52px;
-    font-weight: 800;
+    font-weight: 1200;
     width: 60%;
     color: aliceblue;
     border: 2px dashed yellow;
@@ -55,7 +55,7 @@ html {
     align-items: center;
     text-align: center;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 1000;
 }
 
 .navheader {
