@@ -156,21 +156,14 @@ html {
     border-color: aliceblue;
 }
 
-.bg .center {
-    position: absolute;
-    transform: translate(0%, -100%);
-    width: 40%;
-    height: 55%;
-    box-sizing: border-box;
-}
-
 /* animated image with code from MarioDesigns on https://codepen.io/MarioDesigns/pen/woJgeo */
 .floatingImage {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     vertical-align: bottom;
     margin-left: 20%;
     margin-right: 10%;
+    margin-top: 10%;
     margin-bottom: 20%;
     width: 200px;
     height: 200px;
