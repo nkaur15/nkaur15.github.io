@@ -173,7 +173,7 @@ img {
 }
 
 /*social media buttons*/
-.fa {
+.fa1 {
     padding: 10px;
     font-size: 30px;
     width: 20px;
@@ -182,21 +182,21 @@ img {
     border-radius: 50%;
   }
   
-.fa:hover {
+.fa1:hover {
     opacity: 0.7;
 }
   
-.fa-github {
+.fa1-github {
     background: black;
     color: white;
 }
   
-.fa-envelope {
+.fa1-envelope {
     background: black;
     color: white;
 }
   
-.fa-linkedin {
+.fa1-linkedin {
     background: black;
     color: white;
 }
