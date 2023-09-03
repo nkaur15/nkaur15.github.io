@@ -54,7 +54,7 @@ div {
 .title {
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
-    font-size: 52px;
+    font-size: 64px;
     font-weight: 900;
     color: aliceblue;
 }
@@ -162,7 +162,7 @@ img {
 }
 
 .menu a:hover{
-    background-color: black;
+    background-color: rgb(5, 13, 19);
     color: aliceblue;
 }
 
@@ -188,18 +188,18 @@ img {
 }
   
 .fa-github {
-    background: black;
-    color: white;
+    background: rgb(5, 13, 19);
+    color: aliceblue;
 }
   
 .fa-envelope {
-    background: black;
-    color: white;
+    background: rgb(5, 13, 19);
+    color: aliceblue;
 }
   
 .fa-linkedin {
-    background: black;
-    color: white;
+    background: brgb(5, 13, 19);
+    color: aliceblue;
 }
   
 .header {
@@ -242,6 +242,7 @@ img {
   
 .nav2 a:hover {
     background-color: rgb(5, 13, 19);
+    border: 3px solid rgb(84, 154, 208);
     color: aliceblue;
 }
   
@@ -254,6 +255,7 @@ img {
   
 .nav2 a.split:hover {
     background-color: aliceblue;
+    border: 3px solid rgb(84, 154, 208);
     color: rgb(5, 13, 19);
 }
 
