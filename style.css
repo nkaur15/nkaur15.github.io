@@ -224,7 +224,7 @@ img {
 /* navigation bar style for all other pages exc. home */
 .nav2 {
     overflow: hidden;
-    background-color: #ebe5ce;
+    background-color: aliceblue;
     border-bottom: 5px rgb(84, 154, 208);
     border-bottom-style: double;
 }
@@ -236,11 +236,12 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bolder;
 }
   
 .nav2 a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(5, 13, 19);
+    color: aliceblue;
 }
   
 /* Create a right-aligned (split) link inside the navigation bar */
@@ -251,8 +252,8 @@ img {
 }
   
 .nav2 a.split:hover {
-    background-color: black;
-    color: white;
+    background-color: aliceblue;
+    color: rgb(5, 13, 19);
 }
 
 /* headers used for each project */
