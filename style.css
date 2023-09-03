@@ -220,3 +220,37 @@ img {
     margin-top: 5%;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* navigation bar style for all other pages exc. home */
+.nav2 {
+    overflow: hidden;
+    background-color: #ebe5ce;
+    border-bottom: 5px rgb(84, 154, 208);
+    border-bottom-style: double;
+}
+  
+.nav2 a {
+    float: left;
+    color: rgb(5, 13, 19);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav2 a:hover {
+    background-color: black;
+    color: white;
+}
+  
+/* Create a right-aligned (split) link inside the navigation bar */
+.nav2 a.split {
+    float: right;
+    background-color: rgb(5, 13, 19);
+    color: aliceblue;
+}
+  
+.nav2 a.split:hover {
+    background-color: black;
+    color: white;
+}
