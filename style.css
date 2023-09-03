@@ -39,12 +39,12 @@ div {
 
 .left-half {
     flex: 1;
-    padding: 1rem;
+    padding: 20%;
 }
 
 .right-half {
     flex: 1;
-    padding: 1rem;
+    padding: 20%;
 }
 
 /* title for right half */
