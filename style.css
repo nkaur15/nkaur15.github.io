@@ -16,14 +16,21 @@ html {
     height: 100%;
     margin: 0%;
 }
-   
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* background image for homepage that only covers half the screen */
 .bg {
-    background-image: url("cosmos-1853491_1920.jpg");
+	background-color: black;
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px dashed blue;
 }
 
 /* top half of home page with animated pic and nav bar https://css-tricks.com/left-and-right/ */
@@ -31,14 +38,16 @@ html {
     display: flex;
 }
 
-.right-half {
-    flex: 1;
-    padding: 1rem;
-}
-
 .left-half {
     flex: 1;
     padding: 1rem;
+    border: 2px dashed yellow;
+}
+
+.right-half {
+    flex: 1;
+    padding: 1rem;
+    border: 2px dashed white;
 }
 
 /* title for right half */
@@ -47,14 +56,15 @@ html {
     text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
     font-size: 52px;
     font-weight: 900;
-    width: 50%;
     color: aliceblue;
 }
 
 /* image goes on left half */
 /* animated image with code from MarioDesigns on https://codepen.io/MarioDesigns/pen/woJgeo */
 .floatingImage {
-    margin-left: 20%;
+    justify-content: center;
+    display: center;
+    margin-right: 10%;
     width: 200px;
     height: 200px;
     box-sizing: border-box;
@@ -63,6 +73,7 @@ html {
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
     animation: float 10s ease-in-out infinite;
+    border: 2px dashed blue;
 }
 
 img {
@@ -93,8 +104,8 @@ img {
     text-align: center;
     font-size: 20px;
     font-weight: 900;
+    border: 2px dashed blue;
 }
-
 
 .menu {
     height: 100%;
@@ -186,33 +197,7 @@ img {
     background: black;
     color: white;
   }
-
-/* navigation bar for other resume, publications, and projects */
-.nav2 {
-    overflow: hidden;
-    background-color: #121d38;
-  }
   
-.nav2 a {
-    float: right;
-    color: aliceblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-  
-.nav2 a:hover {
-    background-color: black;
-    color: aliceblue;
-}
-
-.nav2 a.split {
-    float: left;
-    background-color: #345480;
-    color: black;
-}
-
 .header {
     text-align: left;
     align-items: left;
@@ -231,4 +216,3 @@ img {
     margin-top: 5%;
     font-family: 'Josefin Sans', sans-serif;
 }
-
