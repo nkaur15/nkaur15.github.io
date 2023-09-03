@@ -59,6 +59,7 @@ div {
 /* image goes on left half */
 /* animated image with code from MarioDesigns on https://codepen.io/MarioDesigns/pen/woJgeo */
 .floatingImage {
+    overflow: hidden;
     justify-content: center;
     display: center;
     margin-right: 10%;
@@ -100,7 +101,6 @@ img {
     text-align: center;
     font-size: 20px;
     font-weight: 900;
-    border: 2px dashed blue;
 }
 
 .menu {
@@ -158,6 +158,11 @@ img {
     border-right: 2px solid transparent;
 }
 
+.menu a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
 .menu a:hover::before,
 .menu a:hover::after {
     width: 100%;
@@ -175,24 +180,24 @@ img {
     border-radius: 50%;
   }
   
-  .fa:hover {
-      opacity: 0.7;
-  }
+.fa:hover {
+    opacity: 0.7;
+}
   
-  .fa-github {
+.fa-github {
     background: black;
     color: white;
-  }
+}
   
-  .fa-envelope {
+.fa-envelope {
     background: black;
     color: white;
-  }
+}
   
-  .fa-linkedin {
+.fa-linkedin {
     background: black;
     color: white;
-  }
+}
   
 .header {
     text-align: left;
@@ -200,6 +205,7 @@ img {
     margin-left: 10%;
     margin-top: 5%;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
     font-weight: 800;
     text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
 }
