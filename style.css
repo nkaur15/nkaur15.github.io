@@ -25,12 +25,11 @@ div {
 
 /* background image for homepage that only covers half the screen */
 .bg {
-	background-color: black;
+	background-image: url("cosmos-1853491_1920.jpg");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px dashed blue;
 }
 
 /* top half of home page with animated pic and nav bar https://css-tricks.com/left-and-right/ */
@@ -41,13 +40,11 @@ div {
 .left-half {
     flex: 1;
     padding: 1rem;
-    border: 2px dashed yellow;
 }
 
 .right-half {
     flex: 1;
     padding: 1rem;
-    border: 2px dashed white;
 }
 
 /* title for right half */
@@ -73,7 +70,6 @@ div {
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
     animation: float 10s ease-in-out infinite;
-    border: 2px dashed blue;
 }
 
 img {
