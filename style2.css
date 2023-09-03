@@ -1,0 +1,53 @@
+head, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: rgb(5, 13, 19);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+
+/* navigation bar style for all other pages exc. home */
+.nav2 {
+    overflow: hidden;
+    background-color: aliceblue;
+    border-bottom: 5px rgb(84, 154, 208);
+    border-bottom-style: double;
+}
+  
+.nav2 a {
+    float: left;
+    color: rgb(5, 13, 19);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.nav2 a.left {
+	float: left;
+}
+  
+.nav2 a.left:hover {
+    background-color: rgb(5, 13, 19);
+    border: 3px solid rgb(84, 154, 208);
+    color: aliceblue;
+}
+  
+/* Create a right-aligned (split) link inside the navigation bar */
+.nav2 a.split {
+    float: right;
+    background-color: rgb(5, 13, 19);
+    color: aliceblue;
+}
+  
+.nav2 a.split:hover {
+    background-color: aliceblue;
+    border: 3px solid rgb(84, 154, 208);
+    color: rgb(5, 13, 19);
+}
