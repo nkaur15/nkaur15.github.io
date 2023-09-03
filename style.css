@@ -21,6 +21,7 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 /* background image for homepage that only covers half the screen */
@@ -173,7 +174,7 @@ img {
 }
 
 /*social media buttons*/
-.fa1 {
+.fa {
     padding: 10px;
     font-size: 30px;
     width: 20px;
@@ -182,21 +183,21 @@ img {
     border-radius: 50%;
   }
   
-.fa1:hover {
+.fa:hover {
     opacity: 0.7;
 }
   
-.fa1-github {
+.fa-github {
     background: black;
     color: white;
 }
   
-.fa1-envelope {
+.fa-envelope {
     background: black;
     color: white;
 }
   
-.fa1-linkedin {
+.fa-linkedin {
     background: black;
     color: white;
 }
