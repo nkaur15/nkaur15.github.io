@@ -44,7 +44,7 @@ div {
 
 .right-half {
     flex: 1;
-    padding: 20%;
+    padding: 1rem;
 }
 
 /* title for right half */
