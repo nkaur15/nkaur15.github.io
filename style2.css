@@ -43,7 +43,7 @@ head, body {
 .nav2 a.split {
     float: right;
     background-color: rgb(5, 13, 19);
-    padding: 14px 10%;
+    padding: 14px 40px;
     color: aliceblue;
 }
   
