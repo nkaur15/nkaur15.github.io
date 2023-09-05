@@ -78,7 +78,7 @@ head, body {
 .serviceContainer {
 	font-family: 'Josefin Sans';
     padding: 25px;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 5px 5px 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px -5px rgb(95, 189, 215);
     background: rgb(171, 207, 239);
@@ -88,17 +88,18 @@ head, body {
 
 .serviceContainer:hover {
 	background: rgb(84, 154, 208);
+    color: aliceblue;
 }
 
 .serviceContainer .service-icon {
-	color: aliceblue;
+	color: rgb(5, 13, 19);
     font-size: 55px;
     margin: 0 0 20px;
     transition: all 0.3s ease 0s;
 }
 
 .serviceContainer .title {
-	color: aliceblue;
+	color: rgb(5, 13, 19);
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -109,7 +110,7 @@ head, body {
 }
 
 .serviceContainer .description {
-	color: aliceblue;
+	color: rgb(5, 13, 19);
     font-size: 14px;
     line-height: 27px;
     margin: 0 0 15px;
@@ -117,7 +118,7 @@ head, body {
 }
 
 .serviceContainer .view-link {
-	color: aliceblue;
+	color: rgb(5, 13, 19);
     font-size: 15px;
     transition: all 0.3s ease 0s;
 }
