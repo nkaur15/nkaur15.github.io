@@ -67,6 +67,30 @@ head, body {
     text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
 }
 
+.par {
+    text-align: left;
+    margin-top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.header2 {
+    text-align: left;
+    margin-top: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.link {
+	color: rgb(50, 94, 128);
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+
 .box-container {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
@@ -87,8 +111,9 @@ head, body {
 }
 
 .serviceContainer:hover {
-	background: rgb(84, 154, 208);
+	background: rgb(52, 104, 144);
     color: aliceblue;
+    font-weight: 500;
 }
 
 .serviceContainer .service-icon {
@@ -113,7 +138,7 @@ head, body {
 	/* color: rgb(5, 13, 19); */
     font-size: 15px;
     line-height: 27px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 15px;
     transition: all 0.3s ease 0s;
 }
@@ -121,6 +146,6 @@ head, body {
 .serviceContainer .view-link {
 	/* color: rgb(5, 13, 19); */
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     transition: all 0.3s ease 0s;
 }
