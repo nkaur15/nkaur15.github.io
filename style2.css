@@ -131,6 +131,7 @@ head, body {
     letter-spacing: 0.5px;
     line-height: 27px;
     text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
     margin: 0 0 10px;
     transition: all 0.3s ease 0s;
 }
