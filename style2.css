@@ -150,4 +150,6 @@ head, body {
     font-size: 15px;
     font-weight: bolder;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
+    border: 2px dashed rgb(5, 13, 19);
 }
