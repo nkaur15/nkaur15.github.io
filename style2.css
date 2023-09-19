@@ -101,6 +101,7 @@ head, body {
 /* https://bestjquery.com/tutorial/service-box/demo192/# */
 .serviceContainer {
 	font-family: 'Josefin Sans';
+	font-weight: 400;
     padding: 25px;
     margin: 20px 5px 5px 20px;
     border-radius: 10px;
