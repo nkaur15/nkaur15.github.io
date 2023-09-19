@@ -64,12 +64,13 @@ head, body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 40px;
     font-weight: 800;
+    color: rgb(84, 154, 208);
     text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
 }
 
 .par {
     text-align: left;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -78,10 +79,10 @@ head, body {
 
 .header2 {
     text-align: left;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .link {
