@@ -101,7 +101,7 @@ head, body {
 /* https://bestjquery.com/tutorial/service-box/demo192/# */
 .serviceContainer {
 	font-family: 'Josefin Sans';
-	font-weight: 400;
+	font-weight: bolder;
     padding: 25px;
     margin: 20px 5px 5px 20px;
     border-radius: 10px;
@@ -139,14 +139,14 @@ head, body {
 	/* color: rgb(5, 13, 19); */
     font-size: 15px;
     line-height: 27px;
-    font-weight: 800;
+    font-weight: bolder;
     margin: 0 0 15px;
     transition: all 0.3s ease 0s;
 }
 
 .serviceContainer .view-link {
-	/* color: rgb(5, 13, 19); */
+	color: rgb(5, 13, 19);
     font-size: 15px;
-    font-weight: 800;
+    font-weight: bolder;
     transition: all 0.3s ease 0s;
 }
