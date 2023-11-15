@@ -81,15 +81,18 @@ head, body {
     text-align: left;
     margin-top: 2%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
+    color:rgb(52, 104, 144);
 }
 
 .link {
 	color: rgb(50, 94, 128);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     transition: all 0.3s ease 0s;
+    text-align: left;
+    padding-top: 5px;
 }
 
 .box-container {
