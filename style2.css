@@ -151,8 +151,8 @@ head, body {
 
 .serviceContainer .view-link {
 	color: rgb(75, 63, 140);
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 800;
     transition: all 0.3s ease 0s;
     text-decoration: none;
     text-shadow: 1px 1px 2px rgb(129, 146, 191), 0 0 1em rgb(76, 196, 229), 0 0 0.2em rgb(109, 186, 205);
