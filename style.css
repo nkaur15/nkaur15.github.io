@@ -52,8 +52,8 @@ div {
 /* title for right half */
 .title {
     font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 2px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
-    font-size: 52px;
+    text-shadow: 2px 2px 4px rgb(73, 97, 164), 0 0 1em rgb(71, 185, 217), 0 0 0.2em rgb(95, 189, 215);
+    font-size: 60px;
     font-weight: 900;
     color: aliceblue;
 }
@@ -65,6 +65,7 @@ div {
     justify-content: center;
     display: center;
     margin-right: 10%;
+    margin-bottom: 10px;
     width: 300px;
     height: 300px;
     box-sizing: border-box;
@@ -173,32 +174,30 @@ img {
 }
 
 /*social media buttons*/
-.fa {
+.fa,
+.fa-brands,
+.fa-solid {
     padding: 10px;
     font-size: 30px;
-    width: 20px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
   }
   
-.fa:hover {
+.fa:hover,
+.fa-brands:hover,
+.fa-solid:hover {
     opacity: 0.7;
 }
   
-.fa-github {
-    background: rgb(5, 13, 19);
-    color: aliceblue;
-}
-  
-.fa-envelope {
-    background: rgb(5, 13, 19);
-    color: aliceblue;
-}
-  
+.fa-github,
+.fa-envelope,
 .fa-linkedin {
     background: rgb(5, 13, 19);
     color: aliceblue;
+    margin: 10px;
 }
   
 .header {
