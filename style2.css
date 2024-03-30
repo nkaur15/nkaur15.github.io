@@ -14,7 +14,7 @@ head, body {
 /* navigation bar style for all other pages exc. home */
 .nav2 {
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: rgb(135, 168, 197);
     border-bottom: 5px rgb(84, 154, 208);
     border-bottom-style: double;
 }
@@ -36,7 +36,7 @@ head, body {
 .nav2 a.left:hover {
     background-color: rgb(5, 13, 19);
     border: 3px solid rgb(84, 154, 208);
-    color: aliceblue;
+    color: rgb(135, 168, 197);
 }
   
 /* Create a right-aligned (split) link inside the navigation bar */
@@ -44,11 +44,11 @@ head, body {
     float: right;
     background-color: rgb(5, 13, 19);
     padding: 14px 40px;
-    color: aliceblue;
+    color: rgb(135, 168, 197);
 }
   
 .nav2 a.split:hover {
-    background-color: aliceblue;
+    background-color: rgb(135, 168, 197);
     border: 3px solid rgb(84, 154, 208);
     color: rgb(5, 13, 19);
 }

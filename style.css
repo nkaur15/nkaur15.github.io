@@ -190,6 +190,7 @@ img {
 .fa-brands:hover,
 .fa-solid:hover {
     opacity: 0.7;
+    color: rgb(135, 168, 197);
 }
   
 .fa-github,
