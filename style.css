@@ -6,7 +6,7 @@ body {
     background: rgb(5, 13, 19);
     background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
-    color: aliceblue;
+    color: rgb(135, 168, 197);
     text-align: center;
     align-items: center;
 }
@@ -163,7 +163,7 @@ img {
 
 .menu a:hover{
     background-color: rgb(5, 13, 19);
-    color: aliceblue;
+    color: rgb(135, 168, 197);
 }
 
 .menu a:hover::before,
