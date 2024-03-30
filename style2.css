@@ -14,7 +14,7 @@ head, body {
 /* navigation bar style for all other pages exc. home */
 .nav2 {
     overflow: hidden;
-    background-color: rgb(84, 154, 208);
+    background-color: rgb(171, 207, 239);
     border-bottom: 5px rgb(4, 34, 56);
     border-bottom-style: double;
 }
@@ -35,7 +35,7 @@ head, body {
   
 .nav2 a.left:hover {
     background-color: rgb(4, 34, 56);
-    border: 3px solid rgb(84, 154, 208);
+    border: 3px solid rgb(171, 207, 239);
     color: aliceblue;
 }
   
@@ -48,7 +48,7 @@ head, body {
 }
   
 .nav2 a.split:hover {
-    background-color: rgb(84, 154, 208);
+    background-color: rgb(171, 207, 239);
     border: 3px solid rgb(4, 34, 56);
     color: rgb(5, 13, 19);
 }
